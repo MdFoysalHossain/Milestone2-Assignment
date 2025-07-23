@@ -24,8 +24,9 @@
         grid-template-columns: 1fr;
     }
 
-    .hero-details h2{
+    .hero-details h2 {
         font-size: 1.5rem;
+        padding-right: 100px;
     }
 
     .hero-details p{
@@ -84,6 +85,13 @@
         font-size: 0.85rem;
     }
 
+    .single-product-plant h3 {
+        font-size: 1rem;
+    }
+    .single-product-plant span {
+        font-size: 1rem;
+    }
+
     
 
    .all-deals {
@@ -105,6 +113,52 @@
 
     .single-deal a, #first-deal a, #second-deal a, #third-deal a{
         font-size: 1rem;
+    }
+
+    #first-deal{
+        order: 1;
+    }
+
+    #second-deal{
+        order: 3;
+    }
+    
+    #third-deal{
+        order: 2;
+    }
+
+
+
+
+
+
+
+    .subscribe {
+        margin-top: 45px;
+        padding: 100px 0;
+    }
+
+
+    .subscribe-email h2 {
+        font-size: 1.25rem;
+    }
+
+    .subscribe-email form input {
+        width: 250px;
+    }
+
+    .subscribe-email form button {
+        width: 100px;
+    }
+
+
+
+
+    .footer-section {
+        flex-direction: column;
+        gap: 25px;
+        margin-left: 20px;
+        margin-right: 20px;
     }
 
 

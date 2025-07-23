@@ -1,0 +1,111 @@
+@media screen and (max-width: 576px){
+    .nav-bar .nav-links {
+        display: none;
+    }
+
+    .nav-bar .logo img{
+        width: 70px;
+    }
+
+    .nav-bar {
+        padding: 20px 20px;
+    }
+    
+    .hero-details-img {
+        order: 1;
+    }
+
+    .hero-details {
+        order: 2;
+        margin: 28px 16px 0 16px;
+    }
+
+    .hero-banner {
+        grid-template-columns: 1fr;
+    }
+
+    .hero-details h2{
+        font-size: 1.5rem;
+    }
+
+    .hero-details p{
+        font-size: 0.875rem;
+    }
+
+
+
+
+
+    /* SECTION HEADER START */
+    .section-header {
+        padding: 0px 28px;
+
+    }
+
+    .section-header h2 {
+        font-size: 1.5rem;
+    }
+
+    .section-header p {
+        font-size: 0.85rem;
+        line-height: 20px;
+    }
+
+    /* SECTION HEADER END */
+
+
+    .plants-show {
+        margin-top: 65px;
+    }
+
+    .all-product-plants {
+        grid-template-columns: repeat(2, 1fr);
+        padding: 0 14px;
+    }
+
+    .plants-lover{
+        grid-template-columns: 1fr;
+        gap: 20px;
+        padding: 0 15px;
+        margin-top: 50px;
+    }
+
+    #trusted-badge{
+        display: none;
+    }
+
+
+    .plants-details h2 {
+        font-size: 1.5rem;
+        padding-right: 0;
+    }
+
+    .plants-details ul li {
+        font-size: 0.85rem;
+    }
+
+    
+
+   .all-deals {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 50px;
+    }
+
+    .single-deal, #first-deal, #second-deal, #third-deal{
+        width: 400px !important;
+        height: 205px !important;
+    }
+
+    .single-deal h3 ,#first-deal h3, #second-deal h3, #third-deal h3{
+        font-size: 1.25rem;
+    }
+
+    .single-deal a, #first-deal a, #second-deal a, #third-deal a{
+        font-size: 1rem;
+    }
+
+
+}

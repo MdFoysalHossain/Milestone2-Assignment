@@ -102,8 +102,8 @@
         margin-top: 50px;
     }
 
-    .single-deal, #first-deal, #second-deal, #third-deal{
-        width: 390px !important;
+    .single-deal, #first-deal, #second-deal, #third-deal {
+        width: calc(100% - 40px) !important;
         height: 205px !important;
     }
 

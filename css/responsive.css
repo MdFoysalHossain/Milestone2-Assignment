@@ -162,3 +162,82 @@
 
 
 }
+
+
+
+@media screen and (min-width: 577px) and (max-width: 992px){
+    .hero-banner h2 {
+        font-size: 2.5rem;
+    }
+
+    .hero-banner p {
+        font-size: 1.15rem;
+    }
+
+    .hero-banner {
+        padding-left: 10px;
+    }
+
+    .section-header {
+        padding: 0 150px;
+    }
+
+    .section-header h2 {
+        font-size: 2.5rem;
+    }
+
+    .section-header p {
+        font-size: 1.15rem;
+    }
+
+    .all-product-plants {
+        padding: 0 20px;
+    }
+
+    .plants-details h2 {
+    font-size: 2.5rem;
+    padding-right: 50px;
+}
+
+.plants-details ul li {
+    font-size: 1.15rem;
+}
+
+.plants-lover {
+    gap: 40px;
+}
+
+#trusted-badge {
+    display: none;
+}
+
+.plants-lover {
+    padding: 10px;
+}
+
+#first-deal {
+    height: 200px;
+}
+
+#third-deal {
+    height: 200px;
+}
+
+.all-deals {
+    padding: 0 20px;
+}
+
+.subscribe-email h2 {
+    font-size: 2.5rem;
+}
+
+.web-details p {
+    font-size: 1.15rem;
+}
+
+.footer-section {
+    gap: 50px;
+    padding: 50px 20px;
+}
+
+}
